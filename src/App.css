@@ -1,6 +1,59 @@
+.principal {
+  background-color: chocolate;
+  width: 100;
+  height: 300px;
+  margin: 5px;
+  border-color: beige;
+  align-items: row;
+}
+
+.cua1 {
+  width: 30%;
+  margin: 2px;
+  margin-top: 20px;
+  border-style: dashed;
+  height: 200px;
+  float: right;
+}
+
+.texto{
+  width: 30%;
+  margin: 5px;
+  border-color: gray;
+}
+.textoiz{
+  width: 30%;
+  margin: 5px;
+  font-size: medium;
+  text-align: center;
+}
+
+.textode{
+  width: 30%;
+  margin: 5px;
+  font-size: small;
+  text-align: center;
+}
+
+.grafico{
+  width: 100;
+  height: 200px;
+
+
+}
+
 .App {
   text-align: center;
 }
+
+.fit-picture {
+  width: 100;
+  height: 100;
+  margin-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -8,18 +61,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f3b2cb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(31, 15, 1);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #06576d;
 }
 
 .heart {
@@ -28,4 +81,20 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    background-color: #f3b2cb;
 }

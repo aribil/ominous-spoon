@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Tablas from './Ariana';
+import Holaa from './Abigail';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Holaa danza="ballet" pais="alemania" representante="ballet del sol" dibujos="descarga.jpg" ></Holaa>
+    <Holaa danza="tango" pais="alemania" representante="ballet del sol" dibujos="descarga1.jpg" ></Holaa>
+    <Holaa danza="caporal" pais="alemania" representante="ballet del sol" dibujos="descarga2.jpg" ></Holaa>
+
   </React.StrictMode>
 );
 
